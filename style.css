@@ -1,0 +1,249 @@
+/* General styling specific for preview
+ * ============================================= */
+body {
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #333;
+
+	line-height: 1.7em;
+}
+
+#gk-mainbody {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+/* Poll 
+ * ============================================= */
+
+#gk-mainbody header h1 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+.wp-poll-dsc {
+	color: #a8a8a8;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.wp-poll-h1 div {
+	display: inline-block;
+}
+
+.wp-poll-h1 .wp-poll-tag {
+	background: #444;
+	color: white;
+	padding: 10px 15px;
+	float: left;
+	font-size: 18px;
+}
+
+.wp-poll-h1 .wp-poll-left {
+	border: 1px solid #ddd;
+	display: block;
+	margin-left: 45px;
+}
+
+.wp-poll-h1 .wp-poll-left span {
+	font-weight: 100;
+	line-height: 41px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.wp-poll-answer div {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	color: #666;
+}
+
+.wp-poll-answer div label {
+	margin-left: 15px;
+	font-family: "open sans semibold";
+}
+
+.wp-poll-submit {
+	background: linear-gradient(#4c8ffc, #437fe1);
+	color: white;
+	font-size: 12px;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 4px;
+}
+
+.wp-poll-submit:hover {
+	cursor: pointer;
+}
+
+/* Quiz  
+ * ============================================= */
+
+#gk-mainbody header h1 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+.wp-vtype-dsc {
+	color: #a8a8a8;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.wp-vtype-h1 div {
+	display: inline-block;
+}
+
+.wp-vtype-h1 .wp-vtype-tag {
+	background: #444;
+	color: white;
+	padding: 10px 15px;
+	float: left;
+	font-size: 18px;
+}
+
+.wp-vtype-h1 .wp-vtype-left {
+	border: 1px solid #ddd;
+	display: block;
+	margin-left: 45px;
+}
+
+.wp-vtype-h1 .wp-vtype-left span {
+	font-weight: 100;
+	line-height: 41px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.wp-vtype-answer div {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	color: #666;
+}
+
+.wp-vtype-answer div label {
+	margin-left: 15px;
+	font-family: "open sans semibold";
+}
+
+.wp-vtype-submit {
+	background: linear-gradient(#4c8ffc, #437fe1);
+	color: white;
+	font-size: 12px;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 4px;
+}
+
+.wp-vtype-submit:hover {
+	cursor: pointer;
+}
+
+.wp-vtype-bottom-div span {
+	color: #aaa;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.wp-vtype-bottom-div strong {
+	color: black;
+}
+
+.wp-vtype-img {
+
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+.wp-vtype-sep {
+	height: 50px;
+}
+
+
+/* Meme  
+ * ============================================= */
+.wp-vtype-meme label {
+	width: 28%;
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 5px;
+
+	font-size: 13px;
+}
+
+.wp-vtype-meme input {
+	width: 70%;
+	display: inline-block;
+	float: right;
+
+	padding: 8px 10px;
+	border: 1px solid #cdcdcd;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
+.wp-vtype-meme > div {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.wp-vtype-meme > div:last-child {
+	margin-bottom: 0;
+}
+
+.wp-vtype-separator {
+	height: 1px;
+	background: #E5E5E5;
+	width: 100%;
+	display: block;
+	margin: 40px 0;
+}
+
+/* Quiz final  
+ * ============================================= */
+.wp-vtype-label {
+	border-radius: 5px;
+	font-size: 12px;
+	color: white;
+	background: black;
+	padding: 4px 10px;
+	margin-right: 10px;
+}
+
+.wp-vtype-label.green {
+	background: #66d344;
+}
+
+.wp-vtype-right-div p {
+	font-size: 13px;
+	color: #666;
+	font-weight: normal
+}
+
+.wp-vtype-right-div input[type='submit'] {
+	float: right;
+	width: 25%;
+}
+.wp-vtype-right-div input[type='text']  {
+	width: 74%;
+	display: inline-block;
+	float: left;
+
+	padding: 8px 10px;
+	border: 1px solid #cdcdcd;
+	border-radius: 5px;
+	font-size: 12px;
+}
